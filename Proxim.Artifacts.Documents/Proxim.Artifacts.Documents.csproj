@@ -36,9 +36,6 @@
     <Content Include="Idea\Considerations.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="System" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Architecture\Architecture.vsdx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
