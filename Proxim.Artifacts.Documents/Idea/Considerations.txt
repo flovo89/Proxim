@@ -1,0 +1,2 @@
+﻿- Bluetooth LE advertising for sending own data (only name)
+- Scan request / scan response for further information

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxim", "Proxim\Proxim.csproj", "{B08BE98C-AC5C-4672-B887-2636C60FF6B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxim.Artifacts.Documents", "Proxim.Artifacts.Documents\Proxim.Artifacts.Documents.csproj", "{911C59E7-E4A0-4711-84A2-6D52AE19A1C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B08BE98C-AC5C-4672-B887-2636C60FF6B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B08BE98C-AC5C-4672-B887-2636C60FF6B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B08BE98C-AC5C-4672-B887-2636C60FF6B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B08BE98C-AC5C-4672-B887-2636C60FF6B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{911C59E7-E4A0-4711-84A2-6D52AE19A1C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{911C59E7-E4A0-4711-84A2-6D52AE19A1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{911C59E7-E4A0-4711-84A2-6D52AE19A1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{911C59E7-E4A0-4711-84A2-6D52AE19A1C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
