@@ -70,11 +70,24 @@
       <HintPath>..\packages\MvvmCross.Platform.4.4.0\lib\portable-net45+win+wpa81+wp80\MvvmCross.Platform.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="MvvmCross.Plugins.BLE, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.Plugin.BLE.1.2.0\lib\portable-net45+win8+wpa81+wp8\MvvmCross.Plugins.BLE.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Plugin.BLE, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Plugin.BLE.1.2.0\lib\portable-net45+win8+wpa81+wp8\Plugin.BLE.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Plugin.BLE.Abstractions, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Plugin.BLE.1.2.0\lib\portable-net45+win8+wpa81+wp8\Plugin.BLE.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Modules\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
