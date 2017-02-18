@@ -5,7 +5,7 @@ using Proxim.Phone.Core.Data;
 
 
 
-namespace Proxim.Phone.Core.Interfaces
+namespace Proxim.Phone.Core.Interfaces.ServiceInterfaces
 {
     public interface ISessionService
     {

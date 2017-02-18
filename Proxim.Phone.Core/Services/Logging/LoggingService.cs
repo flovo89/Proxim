@@ -5,7 +5,7 @@ using System.Globalization;
 using MvvmCross.Platform.Platform;
 
 using Proxim.Phone.Core.Data;
-using Proxim.Phone.Core.Interfaces;
+using Proxim.Phone.Core.Interfaces.ServiceInterfaces;
 
 
 

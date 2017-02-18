@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using Proxim.Phone.Core.Data;
-using Proxim.Phone.Core.Interfaces;
+using Proxim.Phone.Core.Interfaces.ServiceInterfaces;
+using Proxim.Phone.Core.Services.Logging;
 
 
 
@@ -13,7 +13,7 @@ namespace Proxim.Phone.Core.Services.Messaging
     {
         #region Instance Constructor/Destructor
 
-        public MessagingService(ILoggingService loggingService, ISessionService sessionService)
+        public MessagingService (ILoggingService loggingService, ISessionService sessionService)
         {
             this.SyncRoot = new object();
             this.ReceiverList = new List<Action<IMessage>>();
@@ -43,7 +43,7 @@ namespace Proxim.Phone.Core.Services.Messaging
 
         #region Interface: IMessagingService
 
-        public IMessage CreateMessage(string name)
+        public IMessage CreateMessage (string name)
         {
             if (name == null)
             {
@@ -56,11 +56,11 @@ namespace Proxim.Phone.Core.Services.Messaging
             }
         }
 
-        public void Initialize()
+        public void Initialize ()
         {
         }
 
-        public void PostMessage(IMessage message)
+        public void PostMessage (IMessage message)
         {
             if (message == null)
             {
@@ -73,7 +73,7 @@ namespace Proxim.Phone.Core.Services.Messaging
                 {
                     if (message is Message)
                     {
-                        ((Message)message).Timestamp = DateTime.Now;
+                        ( (Message)message ).Timestamp = DateTime.Now;
                     }
 
                     foreach (Action<IMessage> act in this.ReceiverList)
@@ -86,7 +86,7 @@ namespace Proxim.Phone.Core.Services.Messaging
             });
         }
 
-        public void SubscribeReceiver(Action<IMessage> callback)
+        public void SubscribeReceiver (Action<IMessage> callback)
         {
             if (!this.ReceiverList.Contains(callback))
             {

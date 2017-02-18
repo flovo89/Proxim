@@ -1,4 +1,4 @@
-﻿namespace Proxim.Phone.Core.Data
+﻿namespace Proxim.Phone.Core.Services.Logging
 {
     public enum LogLevel
     {

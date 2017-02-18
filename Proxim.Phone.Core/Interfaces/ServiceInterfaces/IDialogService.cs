@@ -1,4 +1,4 @@
-﻿namespace Proxim.Phone.Core.Interfaces
+﻿namespace Proxim.Phone.Core.Interfaces.ServiceInterfaces
 {
     public interface IDialogService : IService
     {

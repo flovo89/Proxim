@@ -3,7 +3,7 @@ using Android.App;
 using MvvmCross.Platform;
 using MvvmCross.Platform.Droid.Platform;
 
-using Proxim.Phone.Core.Interfaces;
+using Proxim.Phone.Core.Interfaces.ServiceInterfaces;
 
 
 
