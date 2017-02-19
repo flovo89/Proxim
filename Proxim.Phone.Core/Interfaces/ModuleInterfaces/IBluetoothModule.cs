@@ -15,6 +15,12 @@ namespace Proxim.Phone.Core.Interfaces.ModuleInterfaces
 
         void StartAdvertising ();
 
+        void StartDiscovery ();
+
         void StopAdvertising ();
+
+        void StopDiscovery ();
+
+        //TODO: Connect / Disconnect
     }
 }
