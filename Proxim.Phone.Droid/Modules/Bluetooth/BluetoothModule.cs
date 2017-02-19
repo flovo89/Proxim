@@ -92,7 +92,7 @@ namespace Proxim.Phone.Droid.Modules.Bluetooth
 
         public void StartDiscovery ()
         {
-            throw new System.NotImplementedException();
+            this.Adapter.StartScanningForDevicesAsync();
         }
 
         public void StopAdvertising ()
@@ -102,7 +102,8 @@ namespace Proxim.Phone.Droid.Modules.Bluetooth
 
         public void StopDiscovery ()
         {
-            throw new System.NotImplementedException();
+            this.Adapter.StopScanningForDevicesAsync();
+            
         }
 
         #endregion
