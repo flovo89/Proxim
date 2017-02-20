@@ -52,6 +52,8 @@
     <Compile Include="Services\Messaging\MessagingService.cs" />
     <Compile Include="Startup\App.cs" />
     <Compile Include="Startup\AppStart.cs" />
+    <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\BluetoothViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MvvmCross.Binding, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -88,7 +90,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Modules\" />
-    <Folder Include="ViewModels\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
