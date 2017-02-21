@@ -14,6 +14,7 @@ namespace Proxim.Phone.Core.Startup
         public override void Initialize ()
         {
             this.CreatableTypes().EndingWith("Service").AsInterfaces().RegisterAsLazySingleton();
+            this.CreatableTypes().EndingWith("Module").AsInterfaces().RegisterAsLazySingleton();
 
             Mvx.ConstructAndRegisterSingleton<IMvxAppStart, AppStart>();
 

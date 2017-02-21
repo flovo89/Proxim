@@ -140,6 +140,8 @@
   <ItemGroup>
     <Compile Include="Bootstrap\BlePluginBootstrap.cs" />
     <Compile Include="Bootstrap\JsonPluginBootstrap.cs" />
+    <Compile Include="Fragments\BaseFragment.cs" />
+    <Compile Include="Fragments\TestFragment.cs" />
     <Compile Include="Modules\Bluetooth\BluetoothModule.cs" />
     <Compile Include="Services\Dialog\DialogService.cs" />
     <Compile Include="Setup.cs" />

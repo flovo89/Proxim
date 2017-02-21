@@ -1,4 +1,9 @@
 ﻿using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform;
+
+using Proxim.Phone.Core.Interfaces.ModuleInterfaces;
+using Proxim.Phone.Core.Interfaces.ServiceInterfaces;
+using Proxim.Phone.Core.ViewModels;
 
 
 
@@ -22,6 +27,11 @@ namespace Proxim.Phone.Core.Startup
             //Mvx.Resolve<ILoginService>().Initialize();
 
             //this.ShowViewModel<MainViewModel>();
+
+            Mvx.Resolve<IMessagingService>().Initialize();
+            Mvx.Resolve<IBluetoothModule>().Initialize();
+
+            this.ShowViewModel<BluetoothViewModel>();
         }
 
         #endregion
